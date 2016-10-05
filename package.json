@@ -2,10 +2,11 @@
   "scripts": {
     "start": "npm run watch",
     "build": "rollup -c rollup.config.js",
-    "watch": "~/code/wrollup/cli.js --verbose -c rollup.config.js"
+    "watch-local": "~/code/wrollup/cli.js --verbose -c rollup.config.js",
+    "watch": "wrollup --verbose -c rollup.config.js"
   },
   "devDependencies": {
-    "rollup": "^0.36.1",
-    "wrollup": "^0.1.7"
+    "rollup": "^0.34.10",
+    "wrollup": "^0.1.8"
   }
 }
